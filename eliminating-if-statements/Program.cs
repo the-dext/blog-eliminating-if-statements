@@ -37,10 +37,6 @@
         static void PrintMenu()
         {
             Console.Clear();
-            Console.WriteLine("***********");
-            Console.WriteLine("** With If Statements Demo **");
-            Console.WriteLine("***********");
-            Console.WriteLine();
             Console.WriteLine("Vote for your favourite pet");
             Console.WriteLine();
 
@@ -53,7 +49,6 @@
         {
             Console.Clear();
             Console.WriteLine("******* Thanks for your vote *******");
-            Console.WriteLine();
             Console.WriteLine(msg);
             Console.ReadKey();
             Environment.Exit(0);
